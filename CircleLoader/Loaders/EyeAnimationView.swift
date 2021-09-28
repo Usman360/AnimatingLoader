@@ -20,6 +20,7 @@ struct EyeAnimationView: View {
                 Ellipse()
                     .fill(Color.black)
                     .frame(width: 30, height: 30, alignment: .center)
+                
             }
 //            ZStack{
 //                Circle()
