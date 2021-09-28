@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct NewLoader: View {
+struct ballRotateChaseLoader: View {
     var body: some View {
         Text("Hello, World! by shoaib")
     }
@@ -15,6 +15,6 @@ struct NewLoader: View {
 
 struct NewLoader_Previews: PreviewProvider {
     static var previews: some View {
-        NewLoader()
+        ballRotateChaseLoader()
     }
 }

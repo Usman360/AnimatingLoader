@@ -11,10 +11,12 @@
 		522FAD62268ED2E1002F8837 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522FAD61268ED2E1002F8837 /* ContentView.swift */; };
 		522FAD64268ED2E3002F8837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522FAD63268ED2E3002F8837 /* Assets.xcassets */; };
 		522FAD67268ED2E3002F8837 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 522FAD66268ED2E3002F8837 /* Preview Assets.xcassets */; };
-		524F8B412702E43C00B85650 /* NewLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524F8B402702E43C00B85650 /* NewLoader.swift */; };
+		524F8B412702E43C00B85650 /* ballRotateChaseLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524F8B402702E43C00B85650 /* ballRotateChaseLoader.swift */; };
+		524F8B452703209400B85650 /* ItNewLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524F8B442703209400B85650 /* ItNewLoader.swift */; };
 		5276BC592702D829001F92A9 /* CircleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5276BC582702D829001F92A9 /* CircleAnimationView.swift */; };
 		5276BC5C2702D8B1001F92A9 /* RectangleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5276BC5B2702D8B1001F92A9 /* RectangleAnimationView.swift */; };
 		5276BC5E2702D8EA001F92A9 /* EyeAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5276BC5D2702D8EA001F92A9 /* EyeAnimationView.swift */; };
+		5276BC602702E637001F92A9 /* ballPulseAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5276BC5F2702E637001F92A9 /* ballPulseAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +26,12 @@
 		522FAD63268ED2E3002F8837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		522FAD66268ED2E3002F8837 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		522FAD68268ED2E3002F8837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		524F8B402702E43C00B85650 /* NewLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLoader.swift; sourceTree = "<group>"; };
+		524F8B402702E43C00B85650 /* ballRotateChaseLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ballRotateChaseLoader.swift; sourceTree = "<group>"; };
+		524F8B442703209400B85650 /* ItNewLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItNewLoader.swift; sourceTree = "<group>"; };
 		5276BC582702D829001F92A9 /* CircleAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleAnimationView.swift; sourceTree = "<group>"; };
 		5276BC5B2702D8B1001F92A9 /* RectangleAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleAnimationView.swift; sourceTree = "<group>"; };
 		5276BC5D2702D8EA001F92A9 /* EyeAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeAnimationView.swift; sourceTree = "<group>"; };
+		5276BC5F2702E637001F92A9 /* ballPulseAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ballPulseAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +88,9 @@
 				5276BC582702D829001F92A9 /* CircleAnimationView.swift */,
 				5276BC5B2702D8B1001F92A9 /* RectangleAnimationView.swift */,
 				5276BC5D2702D8EA001F92A9 /* EyeAnimationView.swift */,
-				524F8B402702E43C00B85650 /* NewLoader.swift */,
+				524F8B402702E43C00B85650 /* ballRotateChaseLoader.swift */,
+				5276BC5F2702E637001F92A9 /* ballPulseAnimationView.swift */,
+				524F8B442703209400B85650 /* ItNewLoader.swift */,
 			);
 			path = Loaders;
 			sourceTree = "<group>";
@@ -160,8 +166,10 @@
 			files = (
 				5276BC5E2702D8EA001F92A9 /* EyeAnimationView.swift in Sources */,
 				522FAD62268ED2E1002F8837 /* ContentView.swift in Sources */,
+				524F8B452703209400B85650 /* ItNewLoader.swift in Sources */,
 				5276BC592702D829001F92A9 /* CircleAnimationView.swift in Sources */,
-				524F8B412702E43C00B85650 /* NewLoader.swift in Sources */,
+				524F8B412702E43C00B85650 /* ballRotateChaseLoader.swift in Sources */,
+				5276BC602702E637001F92A9 /* ballPulseAnimationView.swift in Sources */,
 				522FAD60268ED2E1002F8837 /* CustomLoaderApp.swift in Sources */,
 				5276BC5C2702D8B1001F92A9 /* RectangleAnimationView.swift in Sources */,
 			);
