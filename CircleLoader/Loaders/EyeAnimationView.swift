@@ -12,7 +12,7 @@ struct EyeAnimationView: View {
     
     
     var body: some View {
-        ZStack{
+        HStack{
             ZStack{
                 Circle()
                     .stroke(Color.black, lineWidth: 5)
@@ -20,16 +20,16 @@ struct EyeAnimationView: View {
                 Ellipse()
                     .fill(Color.black)
                     .frame(width: 30, height: 30, alignment: .center)
-            }.offset(x: -80, y: 0)
-            ZStack{
-                Circle()
-                    .stroke(Color.black, lineWidth: 5)
-                    .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                Ellipse()
-                    .fill(Color.black)
-                    .frame(width: 30, height: 30, alignment: .center)
-                
-            }.offset(x: 80, y: 0)
+            }
+//            ZStack{
+//                Circle()
+//                    .stroke(Color.black, lineWidth: 5)
+//                    .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+//                Ellipse()
+//                    .fill(Color.black)
+//                    .frame(width: 30, height: 30, alignment: .center)
+//
+//            }.offset(x: 80, y: 0)
             
         }
     }
